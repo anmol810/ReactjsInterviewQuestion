@@ -1,9 +1,10 @@
-import FileExplorerParent from "./FileExplorer/FileExplorerParent";
-
+// import FileExplorerParent from "./FileExplorer/FileExplorerParent";
+import InfiniteScrollList from "./IntersectionObserver/IntersectionObserver";
 function App() {
   return (
     <>
-      <FileExplorerParent />
+      {/* <FileExplorerParent /> */}
+      {/* <InfiniteScrollList /> */}
     </>
   );
 }
