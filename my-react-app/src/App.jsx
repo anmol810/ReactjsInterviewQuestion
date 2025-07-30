@@ -1,12 +1,16 @@
 // import FileExplorerParent from "./FileExplorer/FileExplorerParent";
 // import InfiniteScrollList from "./IntersectionObserver/IntersectionObserver";
-import UndoRedo from "./undoRedo/undoRedo";
+
+import ProgressBarParent from "./progressBar/progressBarParent";
+
+// import UndoRedo from "./undoRedo/undoRedo";
 function App() {
   return (
     <>
       {/* <FileExplorerParent /> */}
       {/* <InfiniteScrollList /> */}
-      <UndoRedo />
+      {/* <UndoRedo /> */}
+      <ProgressBarParent />
     </>
   );
 }
